@@ -32,16 +32,12 @@ hi = "Hello World!" #string
 # print("hi")
 # print(name)
 
-# Make a program that takes the users name, age and dob and prints them back out
+#Make a program that takes the users name, age and dob and prints them back out
 print("Hi, what is your name?")
 name = input()
-print("hi")
-print(name)
-print("How old are you?")
+print("Hi " + name + " how old are you?")
 age = input()
-print("Me too")
-print("What is your date of birth?")
+print("I am also " + age + ", what is your date of birth")
 dob = input()
-print(dob)
-print("Wow we are born in the same year!")
+print(dob + ":Wow we are born in the same year!")
 
